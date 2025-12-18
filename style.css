@@ -17,6 +17,12 @@ body {
   align-items: center;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   height: 141px;
   background-color: var(--primary-color);
@@ -68,6 +74,7 @@ main {
   /* Section First */
 
   section.first {
+    background-position: 100%;
     background-image: url(./photos/saxli.avif);
     height: 860px;
     background-repeat: no-repeat;
@@ -88,7 +95,6 @@ main {
         width: 690px;
         margin-bottom: 70px;
         font-weight: 600;
-        font-style: ;
       }
 
       button {
@@ -109,4 +115,54 @@ main {
   }
 
   /* Section Second */
+  section.second {
+    display: flex;
+    margin: 60px 0 80px 0;
+    div.background_img {
+      width: 50%;
+      height: 680px;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: 80%;
+      background-image: url(./photos/samzareulo.avif);
+    }
+
+    div.short_info {
+      width: 50%;
+
+      div.wrapper {
+        width: 460px;
+
+        h2 {
+          font-size: 40px;
+          font-weight: 600;
+          color: var(--basic-color);
+        }
+
+        p {
+          font-size: var(--primary-color);
+          font-weight: 200;
+          color: var(--basic-color);
+          line-height: 25.5px;
+          margin: 30px 0 30px 0;
+        }
+
+        a {
+          background-color: var(--basic-color);
+          padding: 10px 31px 10px 31px;
+          font-size: 14px;
+          color: var(--primary-color);
+          font-weight: 200;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        a:hover {
+          background-color: var(--secondary-color);
+        }
+      }
+    }
+  }
+
+  /* Section Third */
 }
