@@ -10,6 +10,7 @@ body {
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--poppins);
 }
 
 .align-center {
@@ -21,6 +22,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--basic-color);
 }
 
 header {
@@ -133,12 +140,6 @@ main {
       div.wrapper {
         width: 460px;
 
-        h2 {
-          font-size: 40px;
-          font-weight: 600;
-          color: var(--basic-color);
-        }
-
         p {
           font-size: var(--primary-color);
           font-weight: 200;
@@ -165,4 +166,38 @@ main {
   }
 
   /* Section Third */
+
+  section.third {
+    h2 {
+      text-align: center;
+      color: var(--basic-color);
+    }
+    div.parent {
+      display: flex;
+      margin-top: 140px;
+      gap: 30px;
+      justify-content: space-around;
+    }
+
+    div.child {
+      width: 232px;
+      text-align: center;
+
+      h3 {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--secondary-color);
+        line-height: 31.02px;
+        height: 62px;
+      }
+      p {
+        font-size: var(--primary-font);
+        color: var(--basic-color);
+        font-weight: 200;
+        margin-top: 40px;
+      }
+    }
+  }
+
+  /* Section Fourth */
 }
