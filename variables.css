@@ -5,4 +5,7 @@
   --basic-color: rgb(30, 30, 30);
   --secondary-color: rgb(162, 96, 40);
   --poppins: "Poppins", sans-serif;
+  --primary-font: 15px;
+  --logo-color: #000;
+  --overlay-color: rgba(30, 30, 30, 0.374);
 }
