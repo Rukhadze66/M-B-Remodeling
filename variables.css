@@ -7,5 +7,6 @@
   --poppins: "Poppins", sans-serif;
   --primary-font: 15px;
   --logo-color: #000;
-  --overlay-color: rgba(30, 30, 30, 0.374);
+  --overlay-color: rgba(30, 30, 30, 0.311);
+  --white-opacity: rgb(219, 219, 219, 0.25);
 }
